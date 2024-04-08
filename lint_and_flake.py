@@ -27,3 +27,9 @@ def analyze_code(directory):
 if __name__ == "__main__":
     directory = r"C:\Users\abhay\OneDrive\Desktop\Part7"
     analyze_code(directory)
+
+# pip install ruff
+# ruff check .
+# ruff check <filename.py>
+# ruff check --fix .
+# ruff format .
